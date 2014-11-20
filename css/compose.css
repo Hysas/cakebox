@@ -4,35 +4,35 @@
     width:100%;
 }
 .msg-atr {
-	position:relative;
-	height:50%;
-	width:100%;
+    position:relative;
+    height:50%;
+    width:100%;
+    border-bottom: 1px solid #E8E8E8;
 }
 .msg-label {
-	position:relative;
-	width:8%;
-	height:100%;
-	text-align:left;
+    position:relative;
+    width:6%;
+    height:100%;
+    float:left;
+    text-align:left;
+    padding: 0.2% 0 0 0.3%;
 }
 .msg-label-input {
-    position:relative;
-    height:100%;
-}
-.msg-box-container {    
-    height: 420px;
-    width: 100%;
-    overflow:auto;
+    position: relative;
+    height: 100%;
+    width: 94%;
+    float: left;
+    padding: 0 0 0 1%;
 }
 .msg-box {	
     position:relative;
-	width:100%;
-	height:420px;
-	vertical-align: bottom;
+    width:100%;
+    height:420px;
+    vertical-align: bottom;
+    resize: none;
 }
 .msg-send-container {
     width:max-content;
     height:30px;
     text-align:center;   
-}
-.msg-send {    
 }

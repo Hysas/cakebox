@@ -40,7 +40,7 @@ var json = [{
 }];
 $('div').on('click', '.compose', function () {
     msg_open = 0;
-    populateCompose();
+    showInboxData();
 });
 
 //$('#inbox').click(showInboxData());
@@ -77,7 +77,7 @@ $('div').on('click', '.trash-container', function () {
 var msg_open = 0;
 
 $('div').on('click', '.msg-info-container', function () {
-    if ($(this).parent().css('background-color') == 'rgb(232, 232, 232)') {
+    /*if ($(this).parent().css('background-color') == 'rgb(232, 232, 232)') {
         $(this).parent().css('background-color', 'white');
     }
     if (msg_open === 0) {
@@ -87,7 +87,7 @@ $('div').on('click', '.msg-info-container', function () {
     } else {
         showInboxData();
         msg_open = 0;
-    }
+    }*/
 });
 
 function showInboxData() {
@@ -233,27 +233,6 @@ function populateChat(json, html) {
     $('.content').append(chat);
 }
 
-function populateCompose() {
-    $('.content').empty();
-    var compose = "<div class=\"msg-atr-container\">";
-    compose += "<div class=\"msg-atr\">";
-    compose += "<span class=\"msg-label\">To:</span>";
-    compose += "<input type=\"text\" class=\"form-control msg-label-input\"/>";
-    compose += "</div>";
-    compose += "<div class=\"msg-atr\">";
-    compose += "<span class=\"msg-label\">Subject:</span>";
-    compose += "<input type=\"text\" class=\"form-control msg-label-input\"/>";
-    compose += "</div>";
-    compose += "</div>";
-
-    compose += "<textarea class=\"msg-box\"></textarea>";
-
-    compose += "<div class=\"msg-send-container\">";
-    compose += "<button type=\"button\" class=\"btn btn-default msg-send\">Send</button>";
-    compose += "</div>";
-    $('.content').append(compose);
-}
-
 var objectStorage = new Object();
 
 function explodeJSON(object) {
@@ -277,6 +256,6 @@ if ($('.content').height() <= 500) {
 
 $(document).ready(function () {
     
-    showInboxData();        
+    //showInboxData();        
     
 });
