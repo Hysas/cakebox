@@ -1,0 +1,153 @@
+body {
+    background-color: white;
+}
+.btn {
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+.btn-default:hover {
+    background-color: transparent;
+}
+button {
+    background-color: transparent;
+}
+.pagewrap {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    text-align:center;
+}
+#site-description {
+    font-size: 100%;
+    margin-top: -5px;
+}
+.content {
+    position: relative;
+    width:100%;
+    border: 1px solid #E8E8E8;
+    border-bottom: 0px;
+}
+.chat {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #E8E8E8;
+}
+.chat-box {
+    position:relative;
+    height: 420px;
+    overflow:auto;
+}
+.message {
+    position: relative;
+    width: 100%;
+}
+.chat-input-container {
+    height:30px;
+    width: 100%;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+.chat-input {
+    position: relative;
+    width: 898px;
+    height: 100%;
+    border:0;
+    float:left;    
+}
+
+.chat-send {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    width: 40px;
+    height: 100%;
+    float:right;
+    border:0;
+    text-align:center;
+}
+.input-group-addon, .chat-send, .form-control, .flag-container, .msg-info-container, .trash-container, .msg-to {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.flag-container {
+    position: relative;
+    width: 5%;
+    height: 100%;
+    float:left;
+    border:0;
+}
+.flag-icon {
+    -ms-transform:scale(1.8);
+    -webkit-transform:scale(1.8);
+    transform:scale(1.8);
+}
+.msg-info-container {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    float:left;
+    border:0;
+}
+.from-container {
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float:left;
+    text-align:left;
+}
+.subject-container {
+    position: relative;
+    width: 65%;
+    height: 100%;
+    float:left;
+    text-align:left;
+}
+.date-container {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    float:right;
+    text-align:right;
+}
+.trash-container {
+    position: relative;
+    width: 5%;
+    height: 100%;
+    float:right;
+    border:0;
+}
+.trash-icon {
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.btn-group-wrap {
+    margin-top: 10px;
+    text-align: center;
+}
+.menu {
+    background-color:white;
+}
+.inbox {
+    
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.footer-text {
+    font-size: 90%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
