@@ -153,15 +153,6 @@ function populateInbox(json, filter) {
 	var unread = 0;
 	for (var s = 0; s < json.length; s++) {
 
-		/*var storeJSON = s;
-		localStorage.setItem(JSON.stringify(chat.id), storeJSON);
-
-		var localData = JSON.parse(localStorage.getItem(JSON.stringify(chat.id)));
-
-		console.log("Test: " + localData);
-		console.log(storeJSON);*/
-
-
 		var chat = json[s];
 		chat = explodeJSON(chat);
 
