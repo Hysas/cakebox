@@ -8,6 +8,7 @@
     height:50%;
     width:100%;
     border-bottom: 1px solid #E8E8E8;
+	z-index:100;
 }
 .msg-label {
     position:relative;
@@ -32,7 +33,23 @@
     resize: none;
 }
 .msg-send-container {
-    width:max-content;
+    width: auto;
     height:30px;
-    text-align:center;   
+    text-align:center;  
+    
+}
+.users-container {
+	visibility: hidden;
+	position:relative;
+	height:auto;
+	margin-left: 55px;
+	z-index:-1;
+	width: auto;
+}
+.user-button {	
+	height:30px;
+	width:auto;
+	text-align:left;
+	background-color: white;
+	border: 1px solid #E8E8E8;
 }

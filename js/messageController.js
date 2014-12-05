@@ -1,7 +1,8 @@
 
 var messages = null;
 function getmessages()
-{    
+{
+    
     $.get("../../api/messageConversations.json?fields=:all&pageSize=5", function(json)
 	  {	      
 	      messages = json.messageConversations;

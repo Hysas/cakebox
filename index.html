@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CAKEBOX</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/div.css" rel="stylesheet">
-    <link href="css/compose.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAKEBOX</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<!-- Bootstrap -->
+	<link href="img/mail_32.png" rel="shortcut icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/div.css" rel="stylesheet">
+	<link href="css/compose.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <div class="pagewrap">
-      <div class="header">
-        <hgroup>
-          <h1 id="site-logo">CAKEBOX</h1>
+</head>
 
-          <h2 id="site-description">Messaging app</h2>
+<body>
+	<div class="pagewrap">
+		<div class="header">
+			<hgroup>
+				<h1 id="site-logo">CAKEBOX</h1>
 
-        </hgroup>
-      </div>
-      <section class="content">
-	<!--Content Changes depending on what you are doing-->
-        <div class="msg-atr-container">
+				<h2 id="site-description">Messaging app</h2>
+
+			</hgroup>
+		</div>
+		<section class="content">
+			<!--Content Changes depending on what you are doing-->
+			<!--<div class="msg-atr-container">
           <div class="msg-atr">
             <span class="msg-label">To:</span>
             <input type="text" class="form-control msg-label-input"/>
@@ -47,28 +52,31 @@
         
         <div class="msg-send-container">          
           <button type="button" class="btn btn-default msg-send">Send</button>
-        </div>
-        <!--Content Changes depending on what you are doing-->
-      </section>
-      <div class="btn-group-wrap">
-        <div class="btn-group" role="group" aria-label="..." id="menu">
-          <button type="button" class="btn btn-default compose"><span class="glyphicon glyphicon-plus" aria-hidden="true" />
-          </button>
-          <button type="button" class="btn btn-default inbox" id="inbox"><span class="glyphicon glyphicon-inbox" aria-hidden="true" />
-          </button>
-          <button type="button" class="btn btn-default favourite"><span class="glyphicon glyphicon-star" aria-hidden="true" />
-          </button>
-          <button type="button" class="btn btn-default unread"><span id="message-count">0</span></button>
-        </div>
-      </div>
-      <div class="footer">
-        <p class="text-muted footer-text">Created with <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://jquery.com/">jQuerry</a>, <a href="http://jsfiddle.net/">JSFIDDLE</a></p>
-      </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/message.js"></script>
-    <script src="js/div.js"></script>
-  </body>
+        </div>-->
+			<!--Content Changes depending on what you are doing-->
+		</section>
+		<div class="btn-group-wrap">
+			<div class="btn-group" role="group" aria-label="..." id="menu">
+				<button type="button" class="btn btn-default compose"><span class="glyphicon glyphicon-plus" aria-hidden="true" />
+				</button>
+				<button type="button" class="btn btn-default inbox" id="inbox"><span class="glyphicon glyphicon-inbox" aria-hidden="true" />
+				</button>
+				<button type="button" class="btn btn-default favourite"><span class="glyphicon glyphicon-star" aria-hidden="true" />
+				</button>
+				<button type="button" class="btn btn-default unread"><span id="message-count">0</span>
+				</button>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="text-muted footer-text">Created with <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://jquery.com/">jQuerry</a>, <a href="http://jsfiddle.net/">JSFIDDLE</a>
+			</p>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/div.js"></script>
+	<script src="js/click.js"></script>
+</body>
+
 </html>
